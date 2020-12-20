@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="90dp"
+        android:layout_marginTop="70dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="20dp"
+        android:layout_height="match_parent" >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView_nombre_aviso"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Test de Lectura      00:00"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#620019"
+                android:textSize="28sp" />
+
+
+
+            <TextView
+                android:id="@+id/parrafo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:text="Este es un texto de prueba que realizará el niño para ver la velocidad lectora que  realiza en un determinado tiempo."
+                android:textAlignment="gravity"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#131313"
+                android:textSize="30sp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnRegistrarse"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+                android:backgroundTint="@color/cardview_dark_background"
+                android:text="SIGUIENTE"
+                android:textSize="15sp"
+                android:textColor="@color/cardview_light_background"
+
+                />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
