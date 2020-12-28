@@ -2,9 +2,9 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:id="@+id/logout"
         android:icon="@drawable/icono"
-        android:title="exit"
+        android:title="Logout"
         />
     <item android:id="@+id/salir"
         android:icon="@drawable/icono"
-        android:title="Logout" />
+        android:title="Exit" />
 </menu>
